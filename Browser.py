@@ -6,6 +6,8 @@ from PyQt5.QtPrintSupport import *
 import os
 import sys
 
+print('I am the real bad guy')
+
 class MainWindow(QMainWindow):
 	def __init__(self, *args, **kwargs):
 		super(MainWindow, self).__init__(*args, **kwargs)
